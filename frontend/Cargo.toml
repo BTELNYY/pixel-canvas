@@ -1,0 +1,21 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+console_log = { version = "1.0.0", features = ["color"] }
+fern = { version = "0.6.2", features = ["colored"] }
+game-loop = "0.10.2"
+log = "0.4.19"
+time = { version = "0.3.22", features = ["wasm-bindgen", "formatting", "macros"] }
+wasm-bindgen = "0.2.87"
+wasm-timer = "0.2.5"
+web-sys = { version = "0.3.64", features = ["CanvasRenderingContext2d", "Document", "Element", "HtmlCanvasElement", "Window", "ImageData"] }
+
+
+[profile.dev.package."*"]
+opt-level = 2
