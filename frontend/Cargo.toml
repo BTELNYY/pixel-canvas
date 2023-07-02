@@ -13,6 +13,7 @@ game-loop = "0.10.2"
 log = "0.4.19"
 time = { version = "0.3.22", features = ["wasm-bindgen", "formatting", "macros"] }
 wasm-bindgen = "0.2.87"
+wasm-sockets = "1.0.0"
 wasm-timer = "0.2.5"
 web-sys = { version = "0.3.64", features = ["CanvasRenderingContext2d", "Document", "Element", "HtmlCanvasElement", "Window", "ImageData"] }
 
