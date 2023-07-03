@@ -20,3 +20,6 @@ web-sys = { version = "0.3.64", features = ["CanvasRenderingContext2d", "Documen
 
 [profile.dev.package."*"]
 opt-level = 2
+
+[profile.dev]
+opt-level = 1
